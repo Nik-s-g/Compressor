@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    background: dimgray;
+    margin: 0;
+}
+
+.head {
+    height: 100px;
+    margin: auto;
+    background-image: url(img/img1.akspic.ru-illustracia-nauchnaya_fantastika-grafika-svet-sinij-3840x2160.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar {
+    background: #1c6fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    margin: auto;
+    min-width: 700px;
+}
+
+.navbar ul {
+    max-width: 2000px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+}
+
+
+.navbar a {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    color: #22325c;
+}
+
+.navbar a:hover {
+    color: #1c6f7a;
+}
+
+.main_menu li {
+    margin: auto;
+    padding-right: 15px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+}
+
+.products {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.compressor {
+    margin: 5px;
+    width: 600px;
+    height: 400px;
+    display: block;
+    background: #384d72;
+    box-shadow: 5px 10px rgb(53, 61, 87);
+}
+
+.compressor:hover {
+    background:rgb(102, 129, 218)
+}
+
+.compressor p, .compressor h3 {
+    text-align: center;
+}
+
+.contacts {
+    background: darkcyan;
+    color: #fff;
+    margin: auto;
+}
+.telephone, .faks, .email {
+    margin-right: 15px;
+    display: inline;
+}
